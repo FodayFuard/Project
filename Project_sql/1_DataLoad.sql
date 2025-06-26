@@ -1,4 +1,4 @@
--- Creating company table with primary key
+-- Creating company table
 CREATE TABLE company
 (
     company_id INT,
@@ -8,7 +8,7 @@ CREATE TABLE company
     thumbnail TEXT
 );
 
--- Creating job_postings table with primary key
+-- Creating job_postings table
 CREATE TABLE job_postings
 (
     job_id INT,
@@ -29,7 +29,7 @@ CREATE TABLE job_postings
     salary_hour_avg NUMERIC
 );
 
--- Creating skills_job table with a primary key and foreign keys
+-- Creating skills_job table
 CREATE TABLE skills_job
 (
     job_id INT,
@@ -37,7 +37,7 @@ CREATE TABLE skills_job
 );
 
 
--- Creating skills table with primary key
+-- Creating skills table
 CREATE TABLE skills
 (
     skill_id INT,

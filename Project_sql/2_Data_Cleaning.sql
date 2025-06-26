@@ -1,4 +1,5 @@
---Create copy of original tables so as not to alter raw data (incase we have to use the raw data later on)
+--CREATE COPIES OF ORIGINAL TABLES SO AS NOT TO ALTER RAW DATA (incase we have to use the raw data later on)
+CREATE COPY OF ORIGINAL TABLES SO AS NOT TO ALTER RAW DATA
 CREATE TABLE company_copy AS
 SELECT * FROM company;
 
@@ -11,8 +12,7 @@ SELECT * FROM skills_job;
 CREATE TABLE skills_copy AS
 SELECT * FROM skills;
 
-
---Check for duplicates and remove if there are any
+--CHECK FOR DUPLICATES AND REMOVE IF THERE ARE ANY
 
 --company_copy
 CREATE TABLE company2

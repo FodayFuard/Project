@@ -1,6 +1,6 @@
 /*Questions: 1. What are the skills required for these top-paying roles?
     -Use the results from the previous one
-    --Just add the skills needed*/
+    -Just add the skills needed*/
    
 WITH top_paying_US_jobs AS (
 SELECT
@@ -10,7 +10,7 @@ SELECT
     job.job_country AS country,
     job.job_location AS city_state,
     job.job_schedule_type AS schedule,
-    job.salary_year_avg AS yearly_salary
+    ROUND(job.salary_year_avg,0) AS yearly_salary
 
 FROM job_postings2 AS job
 
