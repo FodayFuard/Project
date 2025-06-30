@@ -298,7 +298,7 @@ Below is the result for the most optimal skills:
 *Table above shows the most optimal skills to learn for full-time data analyst jobs in the United States.
 # Conclusion
 
-### 🔎Insights
+### Insights
 Through systematic analysis of United States data analyst job postings, several key patterns emerged:
 
 **Top-Paying Roles**: The highest salaries for full_time data analysts jobs are with major companies, reflecting the premium placed on experienced professionals with specialized skills. The highest salary based on my queries was 375000.
