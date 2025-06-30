@@ -167,7 +167,7 @@ LIMIT 15;
 ```
 Below is the result for the top_paying data analyst jobs:
 
-![Top Paying Data Analyst Jobs in the United States](images\1.png)
+![Top Paying Data Analyst Jobs in the United States](images/1.png)
 *Table above shows the top 15 full-time data analyst jobs in the United States*
 
 ### 2️⃣ What skills are required for these high-paying positions?
@@ -208,7 +208,7 @@ ORDER BY yearly_salary DESC
 LIMIT 15;
 ```
 Below is the result for the skills required for the jobs from question 1:
-![Skills Required for Top Data Analyst jobs](images\2.png)
+![Skills Required for Top Data Analyst jobs](images/2.png)
 *Table above shows the skills required for full-time top paying data analyst roles in the United States.*
 
 ### 3️⃣ Which skills are most in demand across the entire dataset?
@@ -236,7 +236,7 @@ ORDER BY
 LIMIT 15;
 ```
 Below is the result to question 3 above:
-![Most Demanded Skills for Data Analyst Jobs](images\3.png)
+![Most Demanded Skills for Data Analyst Jobs](images/3.png)
 *Table above shows the most demanded skills for full_time data analyst jobs in the United States.*
 
 ### 4️⃣ Which skills are associated with the highest average salaries?
@@ -265,7 +265,7 @@ ORDER BY
 LIMIT 15;
 ```
 Below is the result for the skills that pay the most for data analyst roles:
-![Top Paying Skills](images\4.png)
+![Top Paying Skills](images/4.png)
 *Table above shows the skills that pay the most for full_time data analyst jobs in the United States.*
 ### 5️⃣ What are the most optimal skills to develop, balancing both market demand and salary potential?
 I fine tuned previous queries to rank the most optimal skills to learn for data analyst jobs in the United States based on demand and average yearly salary.
@@ -294,14 +294,14 @@ ORDER BY
 LIMIT 15;
 ```
 Below is the result for the most optimal skills:
-![Most Optimal Skills to Learn](images\5.png)
-*Table above shows the most optimal skills to learn for full-time data analyst jobs in the United States.
+![Most Optimal Skills to Learn](images/5.png)
+*Table above shows the most optimal skills to learn for full-time data analyst jobs in the United States
 # Conclusion
 
 ### Insights
 Through systematic analysis of United States data analyst job postings, several key patterns emerged:
 
-**Top-Paying Roles**: The highest salaries for full_time data analysts jobs are with major companies, reflecting the premium placed on experienced professionals with specialized skills. The highest salary based on my queries was 375000.
+**Top-Paying Roles**: The highest salaries for full-time data analysts jobs are with major companies, reflecting the premium placed on experienced professionals with specialized skills. The highest salary based on my queries was 375000.
 
 **Skills in Demand**: Tools like SQL, Python, Tableau and Excel consistently ranked among the most requested skills, underscoring their importance as foundational tools for data analysts.
 
