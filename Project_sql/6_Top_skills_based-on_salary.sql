@@ -20,4 +20,4 @@ GROUP BY
 
 ORDER BY
     average_salary DESC
-LIMIT 25;
+LIMIT 15;

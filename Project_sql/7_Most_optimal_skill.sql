@@ -20,4 +20,5 @@ GROUP BY
     skills2.skill_id,
     skills2.skills
 ORDER BY
-    skills_demanded_count DESC,
+    skills_demanded_count DESC
+LIMIT 15;

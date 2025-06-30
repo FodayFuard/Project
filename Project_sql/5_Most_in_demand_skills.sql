@@ -20,4 +20,4 @@ GROUP BY
 
 ORDER BY
     skills_demanded_count DESC
-LIMIT 10;
+LIMIT 15;

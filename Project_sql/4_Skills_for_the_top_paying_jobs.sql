@@ -8,8 +8,6 @@ SELECT
     job.job_title_short AS title_of_job,
     company2.name AS hiring_company,
     job.job_country AS country,
-    job.job_location AS city_state,
-    job.job_schedule_type AS schedule,
     ROUND(job.salary_year_avg,0) AS yearly_salary
 
 FROM job_postings2 AS job
@@ -24,7 +22,7 @@ WHERE
 
 ORDER BY yearly_salary DESC
 
-LIMIT 25)
+LIMIT 15)
 
 SELECT 
     top_paying_US_jobs.*,
@@ -35,4 +33,5 @@ FROM top_paying_US_jobs
 JOIN skills_job2 ON top_paying_US_jobs.job_id = skills_job2.job_id
 JOIN skills2 ON skills_job2.skill_id = skills2.skill_id
 
-ORDER BY yearly_salary DESC;
+ORDER BY yearly_salary DESC
+LIMIT 15;
