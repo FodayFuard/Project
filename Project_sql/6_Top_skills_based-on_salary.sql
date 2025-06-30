@@ -1,4 +1,4 @@
---5.Question: What are the top skills based on average salary for my role and job type?
+--.Question: What are the top skills based on average salary for my role and job type?
 
 SELECT
     skills2.skills AS skills_required,
