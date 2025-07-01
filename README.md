@@ -7,13 +7,13 @@ As the demand for data-driven decision-making continues to accelerate across ind
 
 Drawing on principles of labor economics and human capital theory, this project utilizes SQL to systematically analyze the dataset with the aim of answering five key questions:
 
-1️⃣ What are the top-paying data analyst jobs in the United States?
+1️⃣ What are the top-paying full-time data analyst jobs in the United States?
 
 2️⃣ What skills are required for these high-paying positions?
 
-3️⃣ Which skills are most in demand across the entire dataset?
+3️⃣ Which skills are most in demand for this role?
 
-4️⃣ Which skills are associated with the highest average salaries?
+4️⃣ Which skills are associated with the highest average salaries for this role?
 
 5️⃣ What are the most optimal skills to develop, balancing both market demand and salary potential?
 
@@ -142,7 +142,7 @@ FROM ct
 WHERE rn = 1;
 ```
 
-### 1️⃣ What are the top-paying data analyst jobs in the United States?
+### 1️⃣ What are the top-paying full-time data analyst jobs in the United States?
 To find an answer to this question, I filtered the dataset for full-time data analyst jobs that were located in the United States based on the average yearly salary.
 ```sql
 SELECT
@@ -165,7 +165,7 @@ WHERE
 ORDER BY salary_year_avg DESC
 LIMIT 15;
 ```
-Below is the result for the top_paying data analyst jobs:
+Below is the result for the top-paying full-time data analyst jobs:
 
 ![Top Paying Data Analyst Jobs in the United States](images/1.png)
 *Table above shows the top 15 full-time data analyst jobs in the United States*
@@ -209,10 +209,10 @@ LIMIT 15;
 ```
 Below is the result for the skills required for the jobs from question 1:
 ![Skills Required for Top Data Analyst jobs](images/2.png)
-*Table above shows the skills required for full-time top paying data analyst roles in the United States.*
+*Table above shows the skills required for full-time top-paying data analyst roles in the United States.*
 
-### 3️⃣ Which skills are most in demand across the entire dataset?
-I used an aggregate function to count the amount of times skills related to data analyst jobs were included in job descriptions for the United States.
+### 3️⃣ Which skills are most in demand for this role?
+I used an aggregate function to count the number of times skills related to data analyst jobs were included in job descriptions for the United States.
 ```sql
 SELECT
     skills2.skills AS skills_required,
@@ -239,7 +239,7 @@ Below is the result to question 3 above:
 ![Most Demanded Skills for Data Analyst Jobs](images/3.png)
 *Table above shows the most demanded skills for full_time data analyst jobs in the United States.*
 
-### 4️⃣ Which skills are associated with the highest average salaries?
+### 4️⃣ Which skills are associated with the highest average salaries for this role?
 I used some portion of the previous query to rank the skills associated with the highest salaries for data analyst jobs in the United States.
 ```sql
 SELECT
