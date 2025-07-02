@@ -5,7 +5,7 @@ Checkout the SQL queries here:[Project_sql folder](/Project_sql/)
 # Background
 As the demand for data-driven decision-making continues to accelerate across industries, understanding the dynamics of the data analyst labor market has never been more important. This project investigates the intersection of wages, skills, and employer demand for data analyst roles in the United States, providing an evidence-based perspective grounded in rigorous analysis.
 
-Drawing on principles of labor economics and human capital theory, this project utilizes SQL to systematically analyze the dataset with the aim of answering five key questions:
+Drawing on principles of labor economics and human capital theory, this project utilizes SQL to systematically analyze the dataset and answer five key questions:
 
 1️⃣ What are the top-paying full-time data analyst jobs in the United States?
 
@@ -19,10 +19,10 @@ Drawing on principles of labor economics and human capital theory, this project 
 
 By addressing these questions, the project contributes actionable insights into which competencies best position data analysts to maximize both employability and earning potential. This analysis not only helps individuals make informed investments in their human capital but also provides a snapshot of the evolving skill demands in the U.S. labor market for data professionals.
 
-Datasource [job_postings](https://www.kaggle.com/datasets/lukebarousse/data-analyst-job-postings-google-search)
+Datasource [job_postings](https://drive.google.com/drive/folders/1egWenKd_r3LRpdCf4SsqTeFZ1ZdY3DNx)
 
 # Tools I used
-- **PostgreSQL**: served as the main database to store and organize the job postings data, allowing efficient execution of complex SQL queries.
+- **PostgreSQL**: served as the primary database to store and organize job posting data, enabling the efficient execution of complex SQL queries.
 
 - **VS Code**: used as the development environment to write, test, and refine SQL queries, with helpful extensions for database integration and query management.
 
@@ -31,7 +31,7 @@ Datasource [job_postings](https://www.kaggle.com/datasets/lukebarousse/data-anal
 # Analysis
 The questions in this project were answered systematically from the first question to the last. Below is an overview of how I approached answering each question:
 
-After loading the dataset into VS Code, I first created a copy of the dataset so as not to run queries on the original dataset. I then checked for duplicate entries and I cleaned them all using the queries below;
+After loading the dataset into VS Code, I created a copy of the dataset to prevent running queries on the original dataset. I then checked for duplicate entries and I cleaned them all using the queries below;
 
 ```sql
 --company_copy
