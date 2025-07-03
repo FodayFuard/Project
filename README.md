@@ -1,3 +1,7 @@
+<div align="center">
+<strong></strong>DATA ANALYST JOB ANALYSIS
+</div>
+
 # Introduction
 This project focuses on diving into the world of data science 📊 to explore the highest-paying 💰 and most in-demand 🔥 skills for data analyst roles in the United States.
 
